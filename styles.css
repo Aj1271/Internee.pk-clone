@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+.nav-links a {
+    color: rgb(53, 49, 49);
+    text-decoration: none;
+    text-size-adjust: bold;
+    margin: 0 15px;
+    transition: color 0.3s; /* Smooth hover transition */
+}
+
+.nav-links a:hover {
+    color: rgb(57, 167, 36);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: black;
+    color: rgb(2, 2, 2);
+    padding: 10px 20px;
+}
+
+.header .logo h1 {
+    color: rgb(57, 167, 36);/* Green */
+}
+
+.header .logo p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.header-buttons button {
+    margin: 0 10px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+}
+
+.job-portal {
+    background-color: rgb(57, 167, 36); /* Green */
+    color:white;
+}
+.job-portal:hover {
+    background-color: rgb(57, 167, 36); /* Lighter green on hover */
+}
+
+.login {
+    background-color: white;
+    color: black;
+}
+
+.login:hover {
+    background-color: #F2F2F2; /* Light gray on hover */
+    color: rgb(57, 167, 36); /* Green text on hover */
+}
+
+/* Top Content Section */
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+  margin:5px 0px 0px 70px
+}
+.main-heading{
+    font-size: 2em;
+}
+
+.left-content{
+    width: 50%;
+    margin-right: 20px;
+}
+.left-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.left-content .typing-text {
+   color: rgb(57, 167, 36);
+    font-style: italic;
+}
+
+.right-content .hero-image {
+    width: 80%;
+    /* max-width: 300px; */
+    margin-bottom: 20px;
+}
+
+.logos img {
+    width: 280px;
+    height: 80px;
+    margin: 0 10px;
+}
+
+.cta-buttons button {
+    margin: 10px 0;
+    background-color: rgb(57, 167, 36); /* Green */
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about h2 {
+    color: rgb(57, 167, 36); /* Green */
+    margin: 20px 0;
+}
+
+.about a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(57, 167, 36);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.hero-image{
+    position: relative;
+    height: 35.5em;
+    width: 80.5em;
+}
+.sub-text{
+   color: #838181;
+   font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
